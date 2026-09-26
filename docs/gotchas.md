@@ -125,6 +125,11 @@ from a naive/default setup.
   through (a `sudo` password prompt interrupting, terminal truncation) —
   splitting into single commands is the reliable fix when a step is
   ambiguous or its result matters.
+  - Despite building all six incident runbooks and this gotchas doc across
+  multiple sessions, none of it was ever `git add`ed or committed — the
+  entire body of work sat as untracked files in the working tree until a
+  deliberate file/git audit caught it. Lesson: commit each artifact right
+  after creating it, not in a batch at the end.
 
 ## Spontaneous incident: brief NTP desync (inc-target, 2026-09-22)
 
