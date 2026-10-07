@@ -72,3 +72,8 @@ afterward.
 - Mistakes made along the way are left visible in the runbooks and
   gotchas doc rather than edited out — including, in inc-106, a wrong
   working hypothesis that was tested and corrected based on evidence.
+
+## Roadmap
+Next: a storage lab (LVM and RAID1), a verified backup-and-restore runbook, and
+Ansible roles for both VMs, checked with `--check --diff` against the live hosts.
+Not yet done; listed so the direction is clear.

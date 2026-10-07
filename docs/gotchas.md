@@ -130,6 +130,9 @@ from a naive/default setup.
   entire body of work sat as untracked files in the working tree until a
   deliberate file/git audit caught it. Lesson: commit each artifact right
   after creating it, not in a batch at the end.
+- GitHub no longer accepts account passwords for git over HTTPS (push returned
+  403). Fixed by switching the remote to SSH with the existing ed25519 key
+  registered on the account; the temporary personal access token was deleted.
 
 ## Spontaneous incident: brief NTP desync (inc-target, 2026-09-22)
 
