@@ -74,6 +74,6 @@ afterward.
   working hypothesis that was tested and corrected based on evidence.
 
 ## Roadmap
-Next: a storage lab (LVM and RAID1), a verified backup-and-restore runbook, and
-Ansible roles for both VMs, checked with `--check --diff` against the live hosts.
-Not yet done; listed so the direction is clear.
+This repository is complete. Follow-up work (storage and RAID, IP networking,
+backup and restore, later Ansible automation) is planned as a separate lab
+repository using the same workflow; this one will only receive corrections.
